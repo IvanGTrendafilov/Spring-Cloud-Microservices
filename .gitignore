@@ -1,26 +1,18 @@
-target/
-
-# IntelliJ
-\.idea/
-*\.iml
-
 # Eclipse
 .classpath
 .project
-.settings
-.cache-main
-.cache-tests
-.factorypath
-.checkstyle
+.settings/
 
-# OSX Stuff
+# Intellij
+.idea/
+*.iml
+*.iws
+
+# Mac
 .DS_Store
 
-# JVM crash logs
-hs_err_pid*
+# Maven
+log/
+target/
 
-# generated config files
-/config/
-/conf/
 
-apigee/mobile/apiproxy/resources/java
